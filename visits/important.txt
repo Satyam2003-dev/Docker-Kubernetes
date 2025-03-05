@@ -1,0 +1,25 @@
+run npm install first
+------------------------
+
+### How to Run Everything
+
+#### 1. Build and Start Docker Containers
+```sh
+docker-compose up --build
+```
+
+#### 2. Test the Application
+Open a browser and go to:
+```
+http://localhost:4001
+```
+or use `curl`:
+```sh
+curl http://localhost:4001
+```
+
+#### 3. Stop the Containers
+To stop the running containers:
+```sh
+docker-compose down
+```
